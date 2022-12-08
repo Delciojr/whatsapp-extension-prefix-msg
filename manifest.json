@@ -3,6 +3,10 @@
     "version": "1.0",
     "description": "@Delciojr",
     "manifest_version": 3,
+    "background":{
+        "service_worker":"config.js",
+        "type": "module"
+    },
     "action": {
         "default_popup": "index.html"
       },

@@ -7,6 +7,7 @@ const enviareeeee = (nome) =>{
 
 
 form.addEventListener('submit',async (event)=>{
+    alert(config)
     event.preventDefault();
      const [tab] = await chrome.tabs.query({active: true, currentWindow: true})
      chrome.scripting.executeScript({
