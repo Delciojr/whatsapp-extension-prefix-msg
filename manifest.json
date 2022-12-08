@@ -1,0 +1,19 @@
+{
+    "name": "@Delciojr",
+    "version": "1.0",
+    "description": "@Delciojr",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html"
+      },
+      "host_permissions": [
+       "..."
+      ],
+      "permissions": [
+        "tabGroups",
+        "tabs",
+        "scripting",
+        "storage",
+        "activeTab"
+      ]
+  }
